@@ -1,0 +1,194 @@
+.body {
+    color: blanchedalmond;
+    background-color: rgb(25, 1, 63);
+}
+
+.div-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0%;
+    height: 100px;
+    border-radius: 2svi;
+    background-color: rgb(37, 2, 70);
+}
+.logotipo {
+    width: 100px;
+    padding-left: 0%;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+}
+.div-logo {
+    padding-left: 0%;
+    height: 140px;
+    clip-path: circle(21%);
+    background-color: aqua;
+}
+.ul-header {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding: 0px;
+}
+.nav-list {
+    text-align: center;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 3em;
+    height: fit-content;
+    width: max-content;
+    font-size: 13px;
+    text-shadow: 2px 2px 5px rgb(185, 13, 190);
+    cursor: pointer;
+
+}
+.caja-idiomas {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 50px;
+    height: fit-content;
+    font-size: 13px;
+    padding: 0px;
+}
+.redes {
+    padding: 0px;
+    color: blueviolet;
+}
+.idiomas {
+    padding: 10px;;
+    }
+.div-searchbar {
+    background-color: rgb(236, 217, 174);
+    box-shadow: 2px 2px 8px rgb(11, 1, 27);
+    height: 17px;
+    display: flex;
+    position: absolute;
+    top: 11%;
+    left: 25%;
+    width: 190px;
+    border-radius: 1rem;
+    font-family: monospace;
+    text-align: left;
+    padding-left: 5px;
+    color: rgb(41, 2, 77);
+    font-weight: bolder;
+}
+#id-banner {
+    font-family: Test;
+    font-size: 12px;
+    text-shadow: 2px 2px 5px rgb(185, 13, 190);
+    text-align: center;
+    word-spacing: 7px;
+}
+#id-txtbanner {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    font-size: 12px;
+}
+#id-titulo {
+    font-family: Test;
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 5px rebeccapurple;
+    text-decoration-line: underline overline;
+    text-decoration-color: rgb(74, 0, 92);
+}
+@font-face {
+    font-family: Test;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/unbounded/v3/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG60bx44fNgc6L.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+.div-contenedor-juegos {
+    background-color: rgb(93, 1, 179);
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-content: space-between;
+    border-radius: 3px;
+    margin-bottom: 12px;
+}
+#img-sekiro {
+    width: 19vh;
+    height: 90%;
+    margin-top: 5px; margin-left: 2px; margin-right: 10px;
+    border-radius: 8%;
+    box-shadow: 3px 10px 5px black;
+}
+.div-rightbox {
+    display: flex;
+    flex-direction: column;
+}
+#id-titulo-juego {
+    text-shadow: 2px 2px 5px black;
+    margin-top: 5px; margin-bottom: 0%;
+}
+#id-desc {
+    list-style: inside;
+    list-style-type: circle;
+    margin: 5px;
+}
+#id-btn {
+    margin: 5px;
+    width: 80px;
+}
+.div-estrellas {
+    width: 35vw;
+}
+.estrellas {
+    margin-left: 20px;
+    color: rgb(255, 242, 59);
+    margin-right: -20px;
+  }
+/* .heart-2 {
+	width: 24px;
+	height: 24px;
+    background-color: rgb(255, 241, 114);
+	clip-path: path("M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402m5.726-20.583c-2.203 0-4.446 1.042-5.726 3.238-1.285-2.206-3.522-3.248-5.719-3.248-3.183 0-6.281 2.187-6.281 6.191 0 4.661 5.571 9.429 12 15.809 6.43-6.38 12-11.148 12-15.809 0-4.011-3.095-6.181-6.274-6.181"); */
+/* } */
+
+.div-btn {
+    margin-top: 10px;
+}
+#id-btn {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+.fa-heart {
+
+    filter: drop-shadow(2px 2px 10px rgb(255, 3, 200));
+    color: rgb(230, 245, 147);
+    }
+
+.div-footer {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    background-color: rgb(199, 18, 48);
+    height: 25vh;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    
+}
+.list-footer {
+    padding-bottom: 10px;
+    
+}
+.div-ul-footer {
+    padding-left: 4vw;
+    column-count: 2;
+    list-style: none;
+}
+#id-copy {
+    font-size: 13px;
+    text-align: center;
+    color: rgb(45, 0, 49);
+    font-weight: bold;
+}
