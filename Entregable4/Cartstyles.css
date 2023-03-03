@@ -1,0 +1,236 @@
+.body {
+    background-color: rgb(25, 1, 63);
+}
+.div-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0%;
+    height: 100px;
+    border-radius: 2svi;
+    background-color: rgb(37, 2, 70);
+}
+.logotipo {
+    width: 100px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+}
+.div-logo {
+    padding-left: 0%;
+    height: 140px;
+    clip-path: circle(21%);
+    background-color: aqua;
+}
+.ul-header {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding: 0px;
+}
+.nav-list {
+    color: rgb(238, 230, 116);
+    text-align: center;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 3em;
+    height: fit-content;
+    width: max-content;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px rgb(185, 13, 190);
+    cursor: pointer;
+
+}
+.caja-idiomas {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 50px;
+    height: fit-content;
+    font-size: 13px;
+    /* padding: 0px; */
+    padding-left: 20px;
+    padding-top: 0px;
+}
+.a-idiomas {
+    padding: 0px;
+    color: blueviolet;
+}
+.idiomas {
+    padding: 10px;;
+    }
+.div-searchbar {
+    background-color: rgb(236, 217, 174);
+    box-shadow: 2px 2px 8px rgb(11, 1, 27);
+    height: 17px;
+    display: flex;
+    position: absolute;
+    top: 11%;
+    left: 25%;
+    width: 190px;
+    border-radius: 1rem;
+    font-family: monospace;
+    text-align: left;
+    padding-left: 5px;
+    color: rgb(41, 2, 77);
+    font-weight: bolder;
+}
+.div-cajacarrito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(116, 23, 204);
+    border-width: 1px;
+    height: 18vh;
+    margin-bottom: 5px;
+}
+#img-sekiro {
+    width: 13vh;
+    height: 15vh;
+    margin-top: 10px; margin-left: 2px; margin-right: 10px;
+    border-radius: 5%;
+    box-shadow: 3px 10px 5px black;
+}
+.div-boxleft {
+    color: rgb(238, 236, 143);
+    display: flex;
+    align-items: stretch;
+    align-content: space-between;
+    height: 18vh;
+    width: 45vw;
+}
+#id-titulo {
+    margin-bottom: 0px;
+}
+.p-descripcion {
+    color: aliceblue;
+    list-style: none;
+    font-size: 10px;
+    margin-top: 8px;
+}
+#id-seller {
+    text-decoration: underline;
+}
+.div-cantidad {
+    background-color: rgb(35, 3, 49);
+    color: rgb(238, 236, 143);
+    border-style: solid;
+    border-color: beige;
+    border-width: 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 2vw;
+    margin-left: 10vh;
+    margin-right: 5vw;
+    width: 12vw;
+    height: 5vh;
+}
+#id-numero {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 7px;
+}
+.div-rightbox {
+    height: 15vh;
+    display: grid;
+    align-content: center;
+    align-items: center;
+}
+.fa-trash-can {
+    filter: drop-shadow(2px 2px 10px rgb(255, 3, 200));
+    color: rgb(217, 236, 109);
+    height: 20px;
+    margin-left: 8vw;
+}
+.p-precio {
+    color: rgb(217, 236, 109);
+    margin-bottom: 6vh;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.div-cajasub {
+    background-color: rgb(22, 1, 43);
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 49vw;
+    padding-left: 5px;
+    border-bottom-style: solid;
+    border-color: rgb(161, 13, 206);
+    border-width: 1px;
+    border-radius: 2px;
+    height: 7vh;
+    width: 353px;
+    color:  rgb(255, 255, 255);
+}
+.div-cajasub2 {
+    background-color: rgb(22, 1, 43);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 28vw;
+    padding-left: 5px;
+    border-bottom-style: solid;
+    border-color: rgb(161, 13, 206);
+    border-width: 1px;
+    border-radius: 2px;
+    height: 7vh;
+    width: 353px;
+    color:  rgb(217, 236, 109);
+}
+.total {
+    display: flex;
+    height: 7vh;
+    width: 45vw;
+    align-items: center;
+    color: rgb(189, 238, 13);
+}
+#id-btncomprar {
+    border-radius: 25px;
+    background-color: rgb(212, 209, 20);
+    color: rgb(36, 0, 41);
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 5px;
+    width: 80vw;
+    height: 8vh;
+    cursor: pointer;
+}
+.div-btn {
+    margin-left: 20px;
+}
+.div-footer {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    background-color: rgb(50, 1, 65);
+    height: 25vh;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    
+}
+.list-footer {
+    padding-bottom: 10px;
+    
+}
+.div-ul-footer {
+    color: bisque;
+    padding-left: 4vw;
+    column-count: 2;
+    list-style: none;
+}
+#id-copy {
+    font-size: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: -10px;
+}

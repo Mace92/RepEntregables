@@ -1,0 +1,226 @@
+.body {
+    color: blanchedalmond;
+    background-color: rgb(25, 1, 63);
+}
+
+.div-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0%;
+    height: 100px;
+    border-radius: 2svi;
+    background-color: rgb(37, 2, 70);
+}
+.logotipo {
+    width: 100px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+}
+.div-logo {
+    padding-left: 0%;
+    height: 140px;
+    clip-path: circle(21%);
+    background-color: aqua;
+}
+.ul-header {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding: 0px;
+}
+.nav-list {
+    color: rgb(238, 230, 116);
+    text-align: center;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 3em;
+    height: fit-content;
+    width: max-content;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px rgb(185, 13, 190);
+    cursor: pointer;
+
+}
+.caja-idiomas {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 50px;
+    height: fit-content;
+    font-size: 13px;
+    /* padding: 0px; */
+    padding-left: 20px;
+    padding-top: 0px;
+}
+.a-idiomas {
+    padding: 0px;
+    color: blueviolet;
+}
+.idiomas {
+    padding: 10px;;
+    }
+.div-searchbar {
+    background-color: rgb(236, 217, 174);
+    box-shadow: 2px 2px 8px rgb(11, 1, 27);
+    height: 17px;
+    display: flex;
+    position: absolute;
+    top: 11%;
+    left: 25%;
+    width: 190px;
+    border-radius: 1rem;
+    font-family: monospace;
+    text-align: left;
+    padding-left: 5px;
+    color: rgb(41, 2, 77);
+    font-weight: bolder;
+}
+.div-contenedor-juegos {
+    background-color: rgb(44, 2, 83);
+    width: 98%;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+.fa-heart {
+    filter: drop-shadow(2px 2px 10px rgb(255, 3, 200));
+    color: rgb(217, 236, 109);
+    position: absolute;
+    margin-left: 46vh;
+    margin-top: 13px;
+    height: 30px;
+    }
+#img-sekiro {
+    width: 40vh;
+    height: 45vh;
+    margin-top: 10px; margin-left: 2px; margin-right: 10px;
+    border-radius: 5%;
+    box-shadow: 3px 10px 5px black;
+}
+.div-bottombox {
+    display: grid;
+    flex-direction: column;
+    border-radius: 3%;
+    margin-top: 1vh;
+}
+#id-titulo-juego {
+    text-shadow: 2px 2px 5px black;
+    margin-top: 15px; margin-bottom: 0%;
+    font-size: 24px;
+    text-align: center;
+}
+.div-estrellas {
+    margin-left: -1vh;
+    margin-top: 1vh;
+    width: 35vw;
+}
+.estrellas {
+    width: 25px;
+    margin-left: 20px;
+    color: rgb(255, 242, 59);
+    margin-right: -20px;
+  }
+  #id-cali {
+    margin-top: 5px;
+    margin-left: 25px;
+  }
+  .ul-desc {
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: lef;
+    margin-left: -25px;
+    margin-top: 0%;
+    gap: 2px;
+}
+#id-desc {
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 10%;
+    border-color: rgb(103, 5, 160);
+    list-style-type: none;
+    margin: 2px;
+    width: 30vw;
+    margin: 2%;
+    text-align: center;
+}
+.div-bordecaja {
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 0.5px;
+    border-radius: 5px;
+}
+.precio {
+    color: rgb(216, 231, 3);
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+#id-btncomprar {
+    border-radius: 25px;
+    background-color: rgb(226, 223, 38);
+    color: rgb(36, 0, 41);
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 5px;
+    width: 80vw;
+    height: 8vh;
+}
+#id-btncarrito {
+    border-radius: 25px;
+    background-color: rgb(111, 211, 172);
+    color: rgb(36, 0, 41);
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 5px;
+    width: 80vw;
+    height: 8vh;
+}
+.div-btn {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    flex-direction: column;
+}
+.div-footer {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    background-color: rgb(50, 1, 65);
+    height: 25vh;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    
+}
+.list-footer {
+    padding-bottom: 10px;
+    
+}
+.div-ul-footer {
+    padding-left: 4vw;
+    column-count: 2;
+    list-style: none;
+    color: bisque;
+}
+#id-copy {
+    font-size: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: -10px;
+}
