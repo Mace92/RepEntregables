@@ -41,7 +41,10 @@
     font-size: 15px;
     text-shadow: 2px 2px 5px rgb(185, 13, 190);
     cursor: pointer;
-
+}
+.enlaces-html{
+    text-decoration: none;
+    color: rgb(253, 196, 121);
 }
 .caja-idiomas {
     display: flex;
@@ -153,45 +156,39 @@
     margin-right: 5px;
     font-size: 20px;
 }
-.div-cajasub {
+.caja-suma {
     background-color: rgb(22, 1, 43);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    align-content: space-between;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    gap: 49vw;
-    padding-left: 5px;
     border-bottom-style: solid;
     border-color: rgb(161, 13, 206);
     border-width: 1px;
     border-radius: 2px;
-    height: 7vh;
-    width: 353px;
+    height: 90px;
+    width: 100%;
     color:  rgb(255, 255, 255);
 }
-.div-cajasub2 {
-    background-color: rgb(22, 1, 43);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.sumas{
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    align-content: center;
-    gap: 28vw;
-    padding-left: 5px;
-    border-bottom-style: solid;
-    border-color: rgb(161, 13, 206);
-    border-width: 1px;
-    border-radius: 2px;
-    height: 7vh;
-    width: 353px;
-    color:  rgb(217, 236, 109);
+    align-content: space-between;
+    height: 40px;
+    width: 100%;
+    gap: 20px;
+    padding-right: 25px;
 }
-.total {
-    display: flex;
-    height: 7vh;
-    width: 45vw;
-    align-items: center;
-    color: rgb(189, 238, 13);
+#total{
+    font-style: italic;
+    color: rgb(202, 255, 10);
 }
+#precio-final{
+    color: rgb(152, 247, 0);
+    filter: drop-shadow(2px 2px 10px rgb(255, 3, 200));    
+}
+
 #id-btncomprar {
     border-radius: 25px;
     background-color: rgb(212, 209, 20);
@@ -204,6 +201,7 @@
     cursor: pointer;
 }
 .div-btn {
+    margin-top: 10px;
     margin-left: 20px;
 }
 .div-footer {

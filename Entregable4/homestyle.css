@@ -39,10 +39,14 @@
     border-radius: 3em;
     height: fit-content;
     width: max-content;
-    font-size: 13px;
+    font-size: 15px;
     text-shadow: 2px 2px 5px rgb(185, 13, 190);
     cursor: pointer;
 
+}
+.enlaces-html{
+    text-decoration: none;
+    color: rgb(253, 196, 121);
 }
 .caja-idiomas {
     display: flex;

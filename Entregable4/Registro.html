@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Registrostyle.css">
+    <title>Registro</title>
+</head>
+<body class="body">
+    <header>
+        <div class="div-header">
+            <img class="img-logo" src="./LOGO Z.png" alt="logoZ">
+            <h1 class="h1-titulo">zGaming</h1>
+        </div>
+
+    </header>
+    <h2>Crear una cuenta</h2>
+    <p class="msj-login">¿Ya tienes una cuenta? <a class="redes" href="#">Iniciar sesión</a></p>
+        <form class="div-form" action="#" method="post">
+        <div class="div-cont-1">
+
+            <label for="username"></label>
+            <input type="text" name="username" placeholder="Nombre de usuario" id="userName"/>
+
+            <label for="email"></label>
+            <input type="email" name="email" placeholder="Ingrese su email" id="email"/>
+
+            <label for="password"></label>
+            <input type="password" name="password" placeholder="Ingrese contraseña" id="password"/>
+
+            <label for="reppassword"></label>
+            <input type="password" name="reppassword" placeholder="Repetir contraseña" id="password"/>
+            
+            
+
+            <label for="pais"></label>
+            <select name="pais" id="pais">
+                <option value="" disabled selected>Seleccione su pais</option>
+                <option value="arg">Argentina</option>
+                <option value="br">Brasil</option>
+                <option value="ch">Chile</option>
+                <option value="uy">Uruguay</option>
+                <option value="co">Colombia</option>
+                <option value="py">Paraguay</option>   
+                <option value="pe">Peru</option>   
+                <option value="ve">Venezuela</option>   
+                <option value="bo">Bolivia</option>   
+            </select>
+        </div>
+
+        <div class="div-cont-2"><label for="gender">¿Cuál es su género?<p class="no-oblig">*(No obligatorio)</p></label>
+            <div class="genders">
+                <div class="genders-child"><label for="varon"><input type="radio" name="varon" id="varon" value="g1"><br>Varon</label></div>
+                <div class="genders-child"><label for="mujer"><input type="radio" name="mujer" id="mujer" value="g2"><br>Mujer</label></div>
+                <div class="genders-child"><label for="no binario"><input type="radio" name="no-binario" id="no-binario" value="g3"><br>Otro</label></div>
+            </div>
+        </div>    
+
+        <div class="div-cont-3">
+            <label for="condiciones">Acepto &nbsp<a class="terms" href="">terminos y condiciones</a>
+            <input type="checkbox" name="condiciones" id="condiciones"/></label>
+            <button class="btn-reg" type="submit">Registrarse</button>
+        </div>
+
+        </form>
+</body>
+</html>
